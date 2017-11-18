@@ -1,0 +1,48 @@
+---
+title: "**Basic Statistics and Probability Distribution**"
+author: "**Wen-Jie Tseng**"
+date: "30.11.17"
+output:
+  beamer_presentation:
+    colortheme: "lily"
+    fonttheme: "serif"
+---
+
+# **Overview**
+- The Idea of Statistics
+- Random Variable
+- Scale of Measure
+- Frequency
+- Distribution
+- Probability and Expect Value
+- Descriptive Statistics
+
+# **The Idea of Statistics**
+
+
+
+# **Random Variable**
+
+
+
+# **Scale of Measure**
+- Nominal: 
+- Ordinal:
+- Interval:
+- Ratio: 
+
+# **Frequency**
+
+
+
+# **Distribution**
+
+
+# **Probability and Expect Value**
+
+
+
+# **Descriptive Statistics**
+
+#
+**Thank you for your attention!**
