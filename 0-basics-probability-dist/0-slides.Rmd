@@ -32,17 +32,26 @@ output:
 - Ratio: 
 
 # **Frequency**
-
-
+- Cummulative density function
+- Probability density function
 
 # **Distribution**
-
+- definition
+- Bernoulli distribution
+- Binomial distribution
+- Normal distribution
 
 # **Probability and Expect Value**
 
 
 
 # **Descriptive Statistics**
+- Central tendency
+	- mean
+	- median
+- Variability
+	- variance
+	- standard deviation
 
 #
 **Thank you for your attention!**
