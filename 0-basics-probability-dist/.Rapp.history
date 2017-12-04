@@ -1,0 +1,88 @@
+library(animation)#
+oopt <- ani.options(nmax = 255)#
+mu <- c(seq(from = -2, to = 0, by = 0.04),#
+        seq(from = 0, to = 2, by = 0.04),#
+        seq(from = 2, to = 0, by = -0.04),#
+        rep(0, 51),#
+        rep(0, 51))#
+sd <- c(rep(1, 51),#
+        rep(1, 51),#
+        rep(1, 51),#
+        seq(from = 1, to = 3, by = 0.04),#
+        seq(from = 3, to = 1, by = -0.04))#
+#
+for(i in 1:ani.options("nmax")) {#
+  curve(dnorm(x, mean = mu[i], sd = sd[i]),#
+        xlim = c(-5, 5), ylim = c(0, 0.5),#
+        xlab = "X", ylab = "P(X)")#
+  abline(v = mu[i], lty = 2)#
+}
+1590 * 13
+1590 * 15
+1590 * 15 + 13470
+6000 * 24
+6000 * 24 + 1590 * 36 +  13470 * 4
+6000 * 24 + 1590 * 36 +  13470 * 4 + 10000 * 24
+800 * 24 + 250 * 4
+20200 * 35
+365 * 5 + 2 + 180
+ans <- matrix(c(1, 2, 8, 3, 7, 4, 6, 5, #
+2, 3, 1, 4, 8, 5, 7, 6, #
+3, 4, 2, 5, 1, 6, 8, 7, #
+4, 5, 3, 6, 2, 7, 1, 8, #
+5, 6, 4, 7, 3, 8, 2, 1, #
+6, 7, 5, 8, 4, 1, 3, 2, #
+7, 8, 6, 1, 5, 2, 4, 3, #
+8, 1, 7, 2, 6, 3, 5, 4), 8, 8, byrow = TRUE)
+ans
+4090 / 7
+1200 / 7
+42 * 41 * 40 * 39 * 38 * 37/factorial(42)
+60 / 1.6 / 1.6
+0.14 * 60
+1000 / 14
+factorial(10)
+3+11+4*1*13*12*8+3*3+8
+4*18+14+7*10
+18 * 1 * 13 * 12 * 11 * 11
+39 * 4 * 10
+library(ggplot2)
+mpg
+str(mpg)
+ggplot2(mpg, aes(x = cyl, y = displ, group = trans)) +
+geom_point()
+ggplot(mpg, aes(x = cyl, y = displ, group = trans)) +
+geom_point()
+2.11 / 2.88
+1.88 / 2.88
+509 / 4
+sum(1:100)
+fa()
+fa
+cfa
+library(fa)
+library(psych)
+fa
+?fa
+devtool
+library(devtool)
+install.packages("devtools")
+library(devtools)
+devtools_install
+devtool_install
+devtool_installs
+??devtools-package
+?devtools
+log (1000)
+log(log(1000))
+exp(3, 2.8)
+exp
+pow
+3 ^ 2.8
+log(21, base = 3)
+log(22, base = 3)
+log(7, base = 2)
+log(21, base = 3)
+setwd("~/Documents/_R/statisitc_tutorial_for_NILab/0-basics-probability-dist/")
+ls
+Sys.setenv(PATH=paste(Sys.getenv()['PATH'], "/Library/Tex/texbin", sep = ':'))
